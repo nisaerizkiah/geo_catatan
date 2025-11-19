@@ -6,20 +6,22 @@ Praktik  ini membahas integrasi layanan lokasi (GPS) dan peta digital dalam apli
 
 Langkah Kerja:
 1.  Tambahkan dependensi yang diperlukan pada file pubspec.yaml
+   
     dependencies:
-  flutter:
+    flutter:
     sdk: flutter
-  flutter_map: ^6.1.0
-  latlong2: ^0.9.0
-  shared_preferences: ^2.2.2
-  geolocator: ^14.0.2
-  geocoding: ^2.0.5
-  google_maps_flutter: ^2.14.0
+    flutter_map: ^6.1.0
+    latlong2: ^0.9.0
+    shared_preferences: ^2.2.2
+    geolocator: ^14.0.2
+    geocoding: ^2.0.5
+    google_maps_flutter: ^2.14.0
+    
 2. Agar aplikasi dapat mengakses GPS, tambahkan izin pada android/app/src/ main/AndroidManifest.xml
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 <uses-permission android:name="android.permission.INTERNET" />
-3. Kemudian membuat file baru lib/ catatan_model .dart untuk menyimpan struktur data.
+4. Kemudian membuat file baru lib/ catatan_model .dart untuk menyimpan struktur data.
 
 ## TugasMandiri
 1. Kustomisasi Marker:Ubah ikon marker agar berbeda-beda tergantung jenis
@@ -30,5 +32,6 @@ disini menggunakan marker ikon rumah, selain ikon rumah juga bisa memilih ikon l
 
 2. Hapus Data:Tambahkan fitur untuk menghapus marker yang sudah dibuat.
 ![geo catatan3](https://github.com/user-attachments/assets/afda37a1-a0a9-4dbe-b140-8f4b510b92a7)
+
 Ketika marker ditekan, muncul dialog konfirmasi untuk menghapus langsung hapus hanya satu marker yang udah dibuat.
 
