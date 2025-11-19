@@ -17,12 +17,10 @@ Langkah Kerja:
 
 ## TugasMandiri
 1. Kustomisasi Marker:Ubah ikon marker agar berbeda-beda tergantung jenis
-catatan (misal:Toko,Rumah,Kantor).
+catatan (misal:Toko,Rumah,Kantor). Disini menggunakan marker ikon rumah, selain ikon rumah juga bisa memilih ikon lain seperti toko dan kantor.
 ![geo catatatn1](https://github.com/user-attachments/assets/cdddca48-938d-42a7-a829-543d0206d16c)
 ![geo catatan2](https://github.com/user-attachments/assets/0e4bf497-5357-440a-8b17-9f7a4ae2a73d)
-disini menggunakan marker ikon rumah, selain ikon rumah juga bisa memilih ikon lain seperti toko dan kantor.
 
-3. Hapus Data:Tambahkan fitur untuk menghapus marker yang sudah dibuat.
+2. Hapus Data:Tambahkan fitur untuk menghapus marker yang sudah dibuat. Ketika marker ditekan, muncul dialog konfirmasi untuk menghapus langsung hapus hanya satu marker yang udah dibuat.
 ![geo catatan3](https://github.com/user-attachments/assets/afda37a1-a0a9-4dbe-b140-8f4b510b92a7)
-Ketika marker ditekan, muncul dialog konfirmasi untuk menghapus langsung hapus hanya satu marker yang udah dibuat.
 
